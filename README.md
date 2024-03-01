@@ -85,7 +85,7 @@ ffmpeg -i shifted.mkv -filter:v yadif \
 3. Set capture mode, video device name, audio device name, and video standard.
 4. Go to Advanced options, set width and height.
 
-![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "VLC settings")
+![Alt text](vlc_configs.png "VLC configuration image")
 
 ```
 **Note:** The best quality capture is achieved without VLC. Tweaking parameters with `ionice` and `ffmpeg` yields better results.
